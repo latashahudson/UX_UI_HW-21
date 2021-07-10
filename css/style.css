@@ -1,0 +1,37 @@
+nav{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.hero{
+    height: 50vh;
+    width: 100%;
+}
+
+.hero-text{
+    width: 30%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.container{
+    outline: 1px solid red;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 350px;
+    width: 20%;
+    outline: 1px solid red;
+}
