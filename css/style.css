@@ -3,8 +3,11 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    color: white;
 }
-
+.navigation a{
+    color: white;
+}
 .hero{
     height: 50vh;
     width: 100%;
@@ -34,4 +37,10 @@ nav{
     height: 350px;
     width: 20%;
     outline: 1px solid red;
+}
+
+button{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
